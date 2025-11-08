@@ -40,9 +40,6 @@
 
 #define CST9217_ACK 			(0xAB)
 
-#define DATA_START_REG      (0x00)
-#define CHIP_ID_REG         (0xA7)
-
 static const char *TAG = "CST9217";
 
 static esp_err_t cst9217_read_data(esp_lcd_touch_handle_t tp);
